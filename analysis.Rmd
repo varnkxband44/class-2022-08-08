@@ -1,0 +1,26 @@
+---
+title: "Social Capital"
+author: "David Kane"
+date: "2022-08-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+
+```{r}
+ec <- read_rds("ec.rds")
+```
+
+```{r}
+summary(ec)
+```
+
+
+
+
+
