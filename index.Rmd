@@ -1,16 +1,14 @@
 ---
-title: "Social Capital"
-author: "David Kane"
-date: "2022-08-02"
-output: html_document
+title: "Economic Connectedness"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
-
-
 
 ```{r}
 ec <- read_rds("ec.rds")
@@ -55,15 +53,3 @@ ec |>
 
 
 ```
-
-
-
-
-|> 
-  ggplot(aes(x = pop_state, y = avg_ec)) +
-    geom_point() +
-
-
-
-
-
